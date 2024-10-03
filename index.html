@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Horizontal con Múltiples Niveles de Submenús</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="menu-container">
+        <ul class="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li class="has-children">
+                <a href="#productos">Productos</a>
+                <ul class="submenu">
+                    <li><a href="#electronicos">Electrónicos</a></li>
+                    <li class="has-children">
+                        <a href="#ropa">Ropa</a>
+                        <ul class="submenu">
+                            <li><a href="#hombre">Hombre</a></li>
+                            <li><a href="#mujer">Mujer</a></li>
+                            <li><a href="#ninos">Niños</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-children">
+                        <a href="#hogar">Hogar</a>
+                        <ul class="submenu">
+                            <li><a href="#muebles">Muebles</a></li>
+                            <li><a href="#decoracion">Decoración</a></li>
+                            <li><a href="#jardin">Jardín</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="has-children">
+                <a href="#servicios">Servicios</a>
+                <ul class="submenu">
+                    <li><a href="#consultoria">Consultoría</a></li>
+                    <li class="has-children">
+                        <a href="#soporte">Soporte</a>
+                        <ul class="submenu">
+                            <li><a href="#remoto">Soporte Remoto</a></li>
+                            <li><a href="#presencial">Soporte Presencial</a></li>
+                            <li><a href="#mantenimiento">Mantenimiento</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <script src="script/app.js">
+        
+    </script>
+</body>
+</html>
